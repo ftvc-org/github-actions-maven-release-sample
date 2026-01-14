@@ -4,7 +4,7 @@ This repository is a sample project to show you a usage of [the maven github act
 in a dummy Java application.
 
 
-# Release your maven project using GitHub actions
+# Release your maven project using GitHub actions  
 
 We will see how you can use maven release inside a GitHub actions, to release your Java project.
 
