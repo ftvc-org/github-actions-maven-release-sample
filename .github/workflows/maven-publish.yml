@@ -30,8 +30,8 @@ jobs:
 
     - name: SonarCloud Scan
       run: mvn -B verify sonar:sonar \
-        -Dsonar.projectKey=<your_project_key> \
-        -Dsonar.organization=<your_org_key> \
+        -Dsonar.projectKey=github-actions-maven-release-sample \
+        -Dsonar.organization=ftvc-org \
         -Dsonar.host.url=https://sonarcloud.io \
         -Dsonar.login=${{ secrets.SONAR_TOKEN }}
 
