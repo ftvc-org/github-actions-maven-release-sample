@@ -74,5 +74,11 @@
              </plugin>
         </plugins>
     </build>
+<distributionManagement>
+  <repository>
+    <id>github</id>
+    <url>https://maven.pkg.github.com/ftvc-org/github-actions-maven-release-sample</url>
+  </repository>
+</distributionManagement>
 
 </project>
