@@ -30,7 +30,7 @@ jobs:
       run: mvn -B verify sonar:sonar \
         -Dsonar.projectKey=github-actions-maven-release-sample \
         -Dsonar.organization=ftvc-org \
-        -Dsonar.host.url=https://sonarcloud.io \
+        -Dsonar.host.url="https://sonarcloud.io" \
         -Dsonar.login=${{ secrets.SONAR_TOKEN }}
 
     - name: Publish to GitHub Packages Apache Maven
